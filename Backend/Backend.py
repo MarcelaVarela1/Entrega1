@@ -7,6 +7,7 @@ a=6
 b=5
 c=a+b
 
-print(c)
+print(c);
 
 min(5, 8, 10, 20)
+print(min);
