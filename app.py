@@ -3,7 +3,7 @@ from dash import html
 import dash_bootstrap_components as dbc
 
 
-#se imorta el front 
+#se importa el front 
 from fronted.fronted import layout
 app = dash.Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP])
 

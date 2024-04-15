@@ -4,9 +4,9 @@ import dash_bootstrap_components as dbc
 
 Definiciones = dbc.Container([
     dbc.Row([
-        dbc.Col('Conceptos', md= 9, style={'background-color':'Blue'}),
+        dbc.Col('Conceptos', md= 8, style={'background-color':'Blue'}),
         html.Br(), html.Br(),
-        dbc.Col('Imagen Ilustrativa', md= 3, style={'background-color':'yellow'}), 
+        dbc.Col('Ecuación metodo de Terzaghi', md= 4, style={'background-color':'yellow'}), 
         html.Br(), html.Br(),
     ])
 ])
