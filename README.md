@@ -1,3 +1,3 @@
 Autores
-Marcela Varela
-Nycole Wiesner
+Marcela Varela Cod. 20222579035
+Nycole Wiesner Cod. 20222579031
