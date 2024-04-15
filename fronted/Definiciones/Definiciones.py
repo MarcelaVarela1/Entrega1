@@ -6,7 +6,12 @@ Definiciones = dbc.Container([
     dbc.Row([
         dbc.Col('Conceptos', md= 8, style={'background-color':'pink'}),
         html.Br(), html.Br(),
+        html.Br(), html.Br(),
+        html.Br(), html.Br(),
         dbc.Col('Ecuación metodo de Terzaghi', md= 4, style={'background-color':'yellow'}), 
         html.Br(), html.Br(),
+        html.Br(), html.Br(),
+        html.Br(), html.Br(),
+        
     ])
 ])
