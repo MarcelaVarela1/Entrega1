@@ -12,7 +12,7 @@ Central = dbc.Container([
 
             html.Div([
     html.H1("TITULO1"),
-    dcc.RadioItems(['Opcion 1', 'Opcion 2' , 'Opcion 3']
+    dcc.RadioItems(['Cimentació Corrida', 'Opcion 2' , 'Opcion 3']
         ),
 
 ])
