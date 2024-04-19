@@ -11,8 +11,8 @@ Central = dbc.Container([
         dbc.Col(
 
             html.Div([
-    html.H1("TITULO1"),
-    dcc.RadioItems(['Cimentació Corrida', 'Opcion 2' , 'Opcion 3']
+    html.H1("Tipo de Cimentación"),
+    dcc.RadioItems(['Cimentación Corrida', 'Cimentación Cuadrada' , 'Cimentación Circular']
         ),
 
 ])
