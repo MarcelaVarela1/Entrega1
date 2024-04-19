@@ -1,5 +1,5 @@
 import dash
-from dash import html
+from dash import html,dcc
 import dash_bootstrap_components as dbc
 
 
@@ -12,15 +12,12 @@ Central = dbc.Container([
 
             html.Div([
     html.H1("TITULO1"),
-    html.H1("TITULO1"),
-    html.H1("TITULO1"),
-    html.H1("TITULO1"),
-    html.H1("TITULO1"),
+    dcc.RadioItems(['Opcion 1', 'Opcion 2' , 'Opcion 3']
+        ),
 
 ])
                 
-                
-                
+                          
                 ,md=8,style={'background-color':'blue'}),
         html.Br(), html.Br(),
         html.Br(), html.Br(),
