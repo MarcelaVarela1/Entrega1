@@ -11,28 +11,28 @@ Inferior = dbc.Container([ # Se define un contenedor.
             html.H2("Toma de Datos", style={'text-align': 'center'}),
                 html.Label('A. Cohesión (c)  [N/m^2]'),
                 dcc.Input(type='number', id= "EntradaCohesion",placeholder="Ingrese valor cohesión"),
-                html.Br(),
+                html.Br(), # Salto de línea.
 
             
                 html.Label('B. Sobrecarga (q)  [N]'), 
                 dcc.Input(type='number', id= "EntradaSobreCarga",placeholder="Ingrese valor Sobrecarga"),
-                html.Br(),
+                html.Br(), # Salto de línea.
 
                 html.Label('C. Base       (B)  [m]'),
                 dcc.Input(type='number' , id= "EntradaBase",placeholder="Ingrese valor Base"),
-                html.Br(),
+                html.Br(), # Salto de línea.
 
                 html.Label('D. Peso específico (γ) [Kg/m^3]'), 
                 dcc.Input(type='number' , id= "EntradaPesoEspecifico",placeholder="Ingrese valor Peso Específico"),
-                html.Br(),
+                html.Br(), # Salto de línea.
 
                 html.Label('E. Ángulo de Ficción (Φ) [°]'), 
                 dcc.Input(type='number', id= "EntradaAnguloFriccion",placeholder="Ingrese Ángulo Fricción"),
-                html.Br(),
+                html.Br(), # Salto de línea.
             ])
             
             , md= 7, style={'background-color':'#FFF0F5'}),
-        html.Br(), html.Br(),
+        html.Br(), html.Br(),# Salto de línea.
 
         
         dbc.Col(
