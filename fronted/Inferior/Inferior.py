@@ -1,10 +1,10 @@
-import dash 
-from dash import html,dcc
-import dash_bootstrap_components as dbc
+import dash  #Se importa la libreria de Dash
+from dash import html,dcc # Importa el módulo html de Dash para poder utilizar etiquetas HTML.
+import dash_bootstrap_components as dbc # Importa Dash Bootstrap Components que proporciona componentes basados en Bootstrap para Dash.
 
-
-Inferior = dbc.Container([
-    dbc.Row([
+# Se Define un contenedor central que encapsula todo el contenido de esta sección.
+Inferior = dbc.Container([ # Se define un contenedor.
+    dbc.Row([ # Se Crea una fila usando.Las filas son usadas para agrupar horizontalmente columnas.
         dbc.Col(
             html.Div([
 
