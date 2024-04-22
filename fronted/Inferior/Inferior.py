@@ -38,7 +38,8 @@ Inferior = dbc.Container([ # Se define un contenedor.
         dbc.Col(
             html.Div([
                 html.H1("El Resultado de la Carga Ultima es:", style={'text-align': 'center'}),
-                html.Label( id = 'ResultadoOperacion')
+                html.Label( id = 'ResultadoOperacion'),
+                
 
             ])
             

@@ -2,7 +2,7 @@ import dash #Se importa la libreria de Dash
 from dash import html # Importa el módulo html de Dash para poder utilizar etiquetas HTML.
 import dash_bootstrap_components as dbc # Importa Dash Bootstrap Components que proporciona componentes basados en Bootstrap para Dash.
 
-# Se define un contenedor usando.
+# Se define un contenedor.
 Superior1 = dbc.Container([ 
     dbc.Row([ # Se Crea una fila usando.Las filas son usadas para agrupar horizontalmente columnas.
 
