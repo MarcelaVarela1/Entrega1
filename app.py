@@ -55,7 +55,7 @@ def update_output(EntradaCohesion, EntradaSobreCarga, EntradaBase, EntradaPesoEs
     else:
         resultado1 = None
 
-    return 'La Carga ultima del suelo cimentación diseñada es [KN/m2]: ' + str(resultado1)
+    return 'La Carga ultima del suelo cimentación diseñada es [KN/m2] : ' + str(resultado1)
     
 
 
