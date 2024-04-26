@@ -25,6 +25,8 @@ Superior1 = dbc.Container([
             ])
             
             ,md=4,style={'background-color':'#FFEFD5'}),
+
+        
         html.Br(), html.Br(), #Espacio de renglon
         html.Br(), html.Br(), #Espacio de renglon
     ])
