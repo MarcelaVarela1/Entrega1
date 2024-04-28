@@ -27,7 +27,7 @@ Central = dbc.Container([# Se define un contenedor.
         html.Div(id='output') # División para mostrar resultados o mensajes
 ])
                                           
-                ,md=4,style={'background-color':'#F0FFF0'}),
+                ,md=4,style={'background-color':'#FFF0F5'}),
         
     # Define otra columna para mostrar las fórmulas según el método Terzagui.
         dbc.Col(
@@ -44,9 +44,11 @@ Central = dbc.Container([# Se define un contenedor.
     html.P("qu= 1.3*C*Nc+q*Nq+0.4*B*γ*Nγ", style={'text-align': 'center'}),
  ])
             
-            ,md=4,style={'background-color':'#F0FFF0'}),
+            ,md=4,style={'background-color':'#FFF0F5'}),
 
-        dbc.Col('Imagenes referencia de tipo de cimentación', md= 4, style={'background-color':'#F0FFF0'}),
+        dbc.Col('Imagenes referencia de tipo de cimentación'
+                
+                , md= 4, style={'background-color':'#FFF0F5'}),
         
     ])
 ])

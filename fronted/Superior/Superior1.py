@@ -12,7 +12,7 @@ Superior1 = dbc.Container([
     html.H1("Diseña tu cimentación SAS"), # Se crea un encabezado de nivel 1 con texto.
     
             ])
-    ,md=8,style={'background-color':'#FFEFD5'}),# Crea una columna dentro de la fila. `md=8` indica que la columna usa 8 de 12 columnas en una pantalla de tamaño medio.
+    ,md=8,style={'background-color':'#FFF0F5'}),# Crea una columna dentro de la fila. `md=8` indica que la columna usa 8 de 12 columnas en una pantalla de tamaño medio.
 
         html.Br(), html.Br(), #Espacio de renglon
 
@@ -20,14 +20,11 @@ Superior1 = dbc.Container([
         dbc.Col(
         
             html.Div([ # Se crea un contenedor genérico que en este caso contiene un título.
-    html.H1("DTC"), #Se genera un titulo.
+    html.Img(src='D:/Marcela/Documents/Marcela/UD/Ing/2024 - 1/PROGRAMACION', style={'width': '100%'})  # Agrega la imagen dentro de un contenedor Div
     
             ])
             
-            ,md=4,style={'background-color':'#FFEFD5'}),
+            ,md=4,style={'background-color':'#FFF0F5'}),
 
-        
-        html.Br(), html.Br(), #Espacio de renglon
-        html.Br(), html.Br(), #Espacio de renglon
     ])
 ])
